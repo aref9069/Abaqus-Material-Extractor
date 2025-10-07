@@ -4,8 +4,8 @@ Abaqus Material Property Extractor
 A Python tool to extract material properties from Abaqus .inp files 
 and export them to JSON and CSV formats.
 
-Author: Your Name
-License: MIT
+Author: Aref Aasi
+
 """
 
 import re
@@ -456,4 +456,5 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n✗ Error: {e}\n")
         import traceback
+
         traceback.print_exc()
